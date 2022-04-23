@@ -1,0 +1,23 @@
+.rodape{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--detalhes);
+}
+
+.rodape_content{
+    width: 90%;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape_content p{
+    font-family: var(--fontTexto);
+    text-align: center;
+    color: var(--preto);
+}

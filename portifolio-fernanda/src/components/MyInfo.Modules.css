@@ -1,0 +1,67 @@
+
+
+@media(min-width: 320px){
+    .myInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3em 0;
+    }
+    
+    .myInfo_content{
+        width: 90%;
+        max-width: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .conhecimentos{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .conhecimentos li{
+        color: var(--preto);
+        list-style: none;
+        line-height: 1.5;
+    }
+    
+    .myInfo_text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .myInfo_text p{
+        line-height: 2;
+        text-align: justify;
+    }
+    
+    .myInfo_text a{
+        margin-top: 1em;
+        color: var(--link)
+    }
+    
+    .conhecimentos img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+}
+
+@media(min-width: 720px){
+    .myInfo_content{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

@@ -7,36 +7,43 @@
 	--secundaria: #F21B95;
 	--terceira: #DADBDD;
 	--detalhes: #f2f2f2;
+	--preto: #232323;
 	--link: #0042e9;
 	--fontTitulo: 'Montserrat', sans-serif;
 	--fontTexto: 'Montserrat', sans-serif;
-}
-
-*{
-	margin: 0;
-	padding: 0;
-}
-
-li{
-	list-style: none;
 }
 
 a:link, a:active, a:hover, a:visited{
 	text-decoration: none;
 }
 
-
-/* * F O N T E S */
-
-/* * I M A G E N S */
-
-/* ! MOBILE */
-@media(min-width: 320px){
-
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* *{
+	margin: 0;
+	padding: 0;
+}
 
-/* ! DESKTOP */
-@media(min-width: 720px){
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+} */
 
+.container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header, main, footer{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
