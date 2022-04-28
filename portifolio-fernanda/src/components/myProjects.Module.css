@@ -1,33 +1,37 @@
-.myProjects{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    background-color: var(--principal);
-}
-
-.myProjects_content{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 3em 0;
-}
-
-.myProjects_content h2{
-    color: var(--detalhes);
-    font-size: 1.8em;
-    font-weight: 300;
-    padding: 0 0 1em 0;
-}
-
-.myProjects_text{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+@media(min-width: 320px){
+    .myProjects{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        background-color: var(--principal);
+    }
+    
+    .myProjects_content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 3em 0;
+    }
+    
+    .myProjects_content h2{
+        color: var(--detalhes);
+        font-size: 1.8em;
+        font-weight: 300;
+        padding: 0 0 1em 0;
+    }
+    
+    .myProjects_text{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 }

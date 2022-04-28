@@ -1,6 +1,10 @@
+import React, {useState} from 'react'
 import styles from './Menu.Module.css'
+import stylesMobile from './MenuMobile.Module.css'
+
 
 function Menu (){
+
     return (
 
         <section>
@@ -11,6 +15,7 @@ function Menu (){
                         <li><a href="">Meus trabalhos</a></li>
                         <li><a href="">Contato</a></li>
                         <li><a href="">CV</a></li>
+                        
                     </ul>
                 </nav>
             </div>

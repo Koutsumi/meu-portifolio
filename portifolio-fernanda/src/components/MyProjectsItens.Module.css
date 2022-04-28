@@ -1,18 +1,27 @@
-.myProjectsItens_content {
-  width: 33.33%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+@media (min-width:320px){
+  .myProjectsItens_content {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .myProjectsItens_content p {
+      width: 300px;
+      text-align: center;
+      color: var(--detalhes);
+      line-height: 1.2;
+      font-size: 0.9em;
+      font-weight: 200;
+      padding: 1em 0;
+  }
 }
 
-.myProjectsItens_content p {
-    text-align: center;
-    color: var(--detalhes);
-    line-height: 1.2;
-    font-size: 0.9em;
-    font-weight: 200;
+@media(min-width: 720px){
+  .myProjectsItens_content p{
     padding: 1em 5em;
+  }
 }
 
 /* .myProjectItens_content img{

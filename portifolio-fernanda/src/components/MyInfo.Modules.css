@@ -20,7 +20,7 @@
     }
     
     .conhecimentos{
-        width: 50%;
+        width: 310px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -34,7 +34,7 @@
     }
     
     .myInfo_text{
-        width: 50%;
+        width: 310px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -42,6 +42,7 @@
     }
     
     .myInfo_text p{
+        width: 310px;
         line-height: 2;
         text-align: justify;
     }
@@ -63,5 +64,16 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+    }
+    .myInfo_text p{
+        width: 100%;
+    }
+
+    .conhecimentos{
+        width: 50%;
+    }
+
+    .myInfo_text{
+        width: 50%;
     }
 }
